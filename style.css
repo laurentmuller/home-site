@@ -1,0 +1,34 @@
+html, body, .main, .wrapper {
+    height: 100%;
+}
+body {
+	color: white;
+    overflow-y: hidden;
+	text-align: center;
+    background: url("background.jpg") no-repeat center fixed;
+    background-size: cover;    
+}
+.main {
+	width: 100%;
+	display: table;
+}
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+.logo {
+    margin-bottom: 20px;
+}
+a {
+	margin: 8px;
+	color: white;
+    text-decoration: none;	
+	transition: transform .5s;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+    transform: rotate(360deg) scale(1.3);
+}
