@@ -5,18 +5,18 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Get latest code
-      uses: actions/checkout@v3
+      - name: Get latest code
+        uses: actions/checkout@v4
 
-    - name: Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.FTP_HOST }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: web/
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/.github/**
-          LICENSE
+      - name: Syncronize files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: web/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            LICENSE
