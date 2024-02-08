@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "logo";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../webfonts/chinesesthupo.ttf");
+}
+
 html, body, .main, .wrapper {
     height: 100%;
 }
@@ -6,8 +13,8 @@ body {
     color: white;
     overflow-y: hidden;
     text-align: center;
-    background: url("background.jpg") no-repeat center fixed;
-    background-size: cover;    
+    background: url("../images/background.jpg") no-repeat center fixed;
+    background-size: cover;
 }
 
 .main {
@@ -21,13 +28,16 @@ body {
 }
 
 .logo {
-    margin-bottom: 20px;
+    font-family: "logo", sans-serif;
+    font-size: 128px;
+    margin-block-start: 0;
+    margin-block-end: 0
 }
 
 a {
     margin: 8px;
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
     transition: transform .5s;
 }
 
