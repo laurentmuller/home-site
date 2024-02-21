@@ -1,7 +1,5 @@
-@import 'all.css';
-
 @font-face {
-    font-family: "logo";
+    font-family: "STHupo";
     font-style: normal;
     font-weight: normal;
     src: url("../webfonts/chinesesthupo.ttf");
@@ -30,7 +28,7 @@ body {
 }
 
 .logo {
-    font-family: "logo", sans-serif;
+    font-family: "STHupo", sans-serif;
     font-size: 128px;
     margin-block-start: 0;
     margin-block-end: 0
