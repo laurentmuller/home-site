@@ -2,7 +2,7 @@
     font-family: "STHupo";
     font-style: normal;
     font-weight: normal;
-    src: url("../webfonts/chinesesthupo.ttf");
+    src: url("../webfonts/chinesesthupo.woff2");
 }
 
 html, body, .main, .wrapper {
