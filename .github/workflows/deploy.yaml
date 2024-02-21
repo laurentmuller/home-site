@@ -20,5 +20,7 @@ jobs:
             **/.git*/**
             **/.github/**
             assets/css/all.css
+            assets/css/all_min.css
+            assets/css/all_light.css
             assets/css/style.css
             LICENSE
