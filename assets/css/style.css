@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "STHupo";
+    font-family: "Logo";
     font-style: normal;
     font-weight: normal;
-    src: url("../webfonts/chinesesthupo.woff2");
+    src: url("../webfonts/logo.woff2");
 }
 
 html, body, .main, .wrapper {
@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-    font-family: "STHupo", sans-serif;
+    font-family: "Logo", sans-serif;
     font-size: 128px;
     margin-block-start: 0;
     margin-block-end: 0
