@@ -5,26 +5,14 @@
     src: url("../webfonts/logo.woff2");
 }
 
-html, body, .main, .wrapper {
+html {
     height: 100%;
 }
 
 body {
     color: white;
-    overflow-y: hidden;
-    text-align: center;
     background: url("../images/background.webp") no-repeat center fixed;
     background-size: cover;
-}
-
-.main {
-    width: 100%;
-    display: table;
-}
-
-.wrapper {
-    display: table-cell;
-    vertical-align: middle;
 }
 
 .logo {
